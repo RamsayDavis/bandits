@@ -1,0 +1,23 @@
+PWD /Users/ramsaydavis/Desktop/Oxford Maths/Part B/Coding for Maths/Project
+INPUT /usr/local/texlive/2024basic/texmf.cnf
+INPUT /usr/local/texlive/2024basic/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2024basic/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT /Users/ramsaydavis/Desktop/Oxford Maths/Part B/Coding for Maths/Project/propasal.tex
+OUTPUT propasal.log
+INPUT /usr/local/texlive/2024basic/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/local/texlive/2024basic/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/local/texlive/2024basic/texmf-dist/tex/latex/base/size10.clo
+INPUT /usr/local/texlive/2024basic/texmf-dist/tex/latex/base/size10.clo
+INPUT /usr/local/texlive/2024basic/texmf-dist/tex/latex/base/size10.clo
+INPUT /usr/local/texlive/2024basic/texmf-dist/tex/latex/base/inputenc.sty
+INPUT /usr/local/texlive/2024basic/texmf-dist/tex/latex/base/inputenc.sty
+INPUT /usr/local/texlive/2024basic/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/local/texlive/2024basic/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/local/texlive/2024basic/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/local/texlive/2024basic/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/local/texlive/2024basic/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/local/texlive/2024basic/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/local/texlive/2024basic/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/local/texlive/2024basic/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/local/texlive/2024basic/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/local/texlive/2024basic/texmf-dist/tex/latex/amsmath/amsopn.sty
