@@ -1,0 +1,47 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{cite}
+
+
+% Page layout settings
+\geometry{
+ a4paper,
+ left=25mm,
+ right=25mm,
+ top=25mm,
+ bottom=25mm
+}
+
+% Title and Author information
+\title{Part B Project Proposal }
+\author{Ramsay Davis (Exeter)}
+\date{}
+\begin{document}
+
+% Title
+\maketitle
+
+% Proposal Section
+\section*{Proposal}
+The purpose of this project is to respond to an open problem proposed in a short paper by Marco Mussi, Simone Drago and Alberto Maria Metelli \cite{open}. Given sequential random variables $X_t \subseteq \mathbb{R}^d$, and $Y_t =Ber( \langle \theta_*, X_t \rangle)$ such that $\theta_*$ is an unknown parameter vector in $\mathbb{R}^d$, 
+and $X_n=f(X_1,\dots,X_{n-1},Y_1,\dots,Y_{n-1})$, within a Reproducing Kernel Hilbert Space (RKHS), can we construct a tight bound on the confidence set for a penalised least squares estimator of $\theta_*$, hereafter denoted $\hat{\theta_t}$? 
+This can be shown to be equivalent to the open problem, which is phrased in the language of kernelised functions. The result can also be used to improve sequential decision-making algorithms in certain contexts \cite{banditbook}. 
+I will attempt to solve the problem from two different angles. Firstly, to extend the work done in Abbasi-Yadkori's PhD thesis \cite{phd}, which includes the bound in the subgaussian case:
+
+\begin{equation}
+    \mathbb{P}\Big(\|\hat{\theta}_t - \theta_*\|_{\overline{V_t}} \leq R \sqrt{\frac{(t - 1)L^2}{\lambda} + 2 \log \left( \frac{1}{\delta} \right) } + \lambda^{1/2} S\Big) \geq 1 - \delta
+\end{equation}
+
+\noindent For $\delta \in (0,1)$, where $\overline{V_t}$ is the regularised design matrix underlying the covariates. These results can be extended to the Bernoulli setting using results regarding self-concordant functions \cite{conc}. 
+Additionally, I will explore using sequential likelihood ratios, which can easily be applied to the finite Bernoulli case \cite{banditbook}. However, extending it to infinity may prove more challenging. 
+I have worked with David Janz in creating this proposal, and he has agreed to supervise this project.
+
+% References Section
+
+\bibliographystyle{plain}
+\bibliography{propreferences}
+
+\end{document}
